@@ -40,8 +40,8 @@ This project provides a Bash script to install PlantUML on Debian or Ubuntu syst
 To uninstall PlantUML after using this script, run the following command:
 
 ```bash
-rm /usr/bin/plantuml
-rm -rf /opt/plantuml/
+sudo rm /usr/bin/plantuml
+sudo rm -rf /opt/plantuml/
 ```
 
 Once you have removed the files, you can also uninstall the dependencies IF you no longer need them:
