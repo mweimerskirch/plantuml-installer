@@ -35,6 +35,21 @@ This project provides a Bash script to install PlantUML on Debian or Ubuntu syst
 - The script requires `sudo` privileges to install packages and place files in system directories.
 - Ensure you have an active internet connection to download dependencies and PlantUML.
 
+## Uninstalling PlantUML
+
+To uninstall PlantUML after using this script, run the following command:
+
+```bash
+rm /usr/bin/plantuml
+rm -rf /opt/plantuml/
+```
+
+Once you have removed the files, you can also uninstall the dependencies IF you no longer need them:
+
+```bash
+sudo apt remove --purge graphviz default-jre
+```
+
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
